@@ -1,0 +1,25 @@
+.left-sidebar {
+  background: #373942;
+
+  .logotype {
+  }
+
+  .menu-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .menu-list {
+      &-title {
+        margin-bottom: 22px;
+      }
+
+      &-item {
+        color: #F9F9F9;
+
+        &.active {
+          color: #00B9AE;
+        }
+      }
+    }
+  }
+}
